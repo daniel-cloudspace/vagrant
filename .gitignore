@@ -13,3 +13,4 @@ tags
 Gemfile.lock
 .idea/*
 *.iml
+*.swp

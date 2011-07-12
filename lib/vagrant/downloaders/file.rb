@@ -11,6 +11,7 @@ module Vagrant
 
       def prepare(source_url)
         raise Errors::DownloaderFileDoesntExist if !::File.file?(source_url)
+        super source_url
       end
 
       def download!(source_url, destination_file)
